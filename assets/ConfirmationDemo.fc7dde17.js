@@ -1,1 +1,0 @@
-import{c as e,o as t,a as n}from"./vendor.c27ef1ee.js";const i={},o={class:"flex align-items-center py-5 px-3"},s=[n("i",{class:"pi pi-fw pi-check mr-2 text-2xl"},null,-1),n("p",{class:"m-0 text-lg"},"Confirmation Component Content via Child Route",-1)];i.render=function(n,i,a,l,r,c){return t(),e("div",o,s)};export{i as default};

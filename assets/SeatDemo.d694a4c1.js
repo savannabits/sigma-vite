@@ -1,0 +1,1 @@
+import{c as t,o as e,a}from"./vendor.3e28add6.js";const n={},s={class:"flex align-items-center py-5 px-3"},i=[a("i",{class:"pi pi-fw pi-ticket mr-2 text-2xl"},null,-1),a("p",{class:"m-0 text-lg"},"Seat Component Content via Child Route",-1)];n.render=function(a,n,l,o,r,p){return e(),t("div",s,i)};export{n as default};
