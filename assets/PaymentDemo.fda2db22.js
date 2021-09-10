@@ -1,0 +1,1 @@
+import{c as e,o as t,b as n}from"./vendor.2897f5d5.js";const l={},s={class:"flex align-items-center py-5 px-3"},i=[n("i",{class:"pi pi-fw pi-money-bill mr-2 text-2xl"},null,-1),n("p",{class:"m-0 text-lg"},"Payment Component Content via Child Route",-1)];l.render=function(n,l,o,a,r,p){return t(),e("div",s,i)};export{l as default};

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/sigma-vite/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link id="theme-link" rel="stylesheet" href="/sigma-vite/assets/layout/themes/md-light-indigo/theme.css">
+    <script type="module" crossorigin src="/sigma-vite/assets/index.4594424c.js"></script>
+    <link rel="modulepreload" href="/sigma-vite/assets/vendor.2897f5d5.js">
+    <link rel="stylesheet" href="/sigma-vite/assets/index.d619ed24.css">
+  </head>
+  <body onload="loadTheme()">
+    <div id="app">
+      <div class="splash-screen">
+        <div class="splash-container">
+          <div class="splash-double-bounce1"></div>
+          <div class="splash-double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function loadTheme() {
+        var themeScheme = localStorage.getItem("themeScheme") || 'md-light';
+        var themeColor = localStorage.getItem("themeColor") || 'indigo';
+        var theme = themeScheme + "-" + themeColor;
+        console.log("current theme: " + theme);
+        var themeElement = document.getElementById('theme-link');
+        themeElement.setAttribute('href', themeElement.getAttribute('href').replace('md-light-indigo', theme));
+      }
+    </script>
+    
+  </body>
+</html>
