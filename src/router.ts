@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
 import Dashboard from './components/Dashboard.vue';
 
 const routes = [
@@ -122,7 +122,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory('/sigma-vite'),
+    history: createWebHashHistory('/sigma-vite'),
     routes,
 });
 
