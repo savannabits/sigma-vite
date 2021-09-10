@@ -1,6 +1,6 @@
 .layout-topbar {
     position: fixed;
-    height: 5rem;
+    height: 3.5rem;
     z-index: 997;
     left: 0;
     top: 0;
@@ -18,7 +18,7 @@
         align-items: center;
 
         .layout-topbar-logo-container {
-            width: 300px;
+            width: 280px;
             display: flex;
             align-items: center;
             justify-content: space-between;

@@ -1,15 +1,15 @@
 .layout-sidebar {
 	position: fixed;
-	width: 300px;
+	width: 270px;
 	height: calc(100vh - 9rem);
 	z-index: 999;
 	overflow-y: auto;
 	user-select: none;
-	top: 7rem;
+	top: 5rem;
 	left: 2rem;
 	transition: transform $transitionDuration, left $transitionDuration;
 	background-color: var(--surface-overlay);
-	border-radius: 12px;
+	border-radius: $borderRadius;
     padding: 2rem;
 }
 

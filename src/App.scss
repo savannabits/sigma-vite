@@ -2,3 +2,22 @@
     z-index: 1000;
     top: 7rem;
 }
+
+.layout-sidebar {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    background-color: var(--primary-color) !important;
+    color: var(--primary-color-text) !important;
+    * {
+        background-color: var(--primary-color) !important;
+        color: var(--primary-color-text) !important;
+    }
+}
+
+.layout-sidebar::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}

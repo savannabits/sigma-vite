@@ -11,10 +11,9 @@
 			</div>
 		</div>
 		<div class="layout-topbar-right">
-			<button class="p-link layout-topbar-button">
-				<span class="layout-topbar-item-text">Events</span>
-				<span class="layout-topbar-icon pi pi-calendar" v-badge="'4'"></span>
-			</button>
+			<a title="Github Repo" target="blank" href="https://github.com/savannabits/sigma-vite" class="p-link layout-topbar-button">
+				<span class="layout-topbar-icon pi pi-github"></span>
+			</a>
 			<button class="p-link layout-topbar-button">
 				<span class="layout-topbar-item-text">Settings</span>
 				<span class="layout-topbar-icon pi pi-cog"></span>
