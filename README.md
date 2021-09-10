@@ -11,5 +11,4 @@ This is a vitejs compatible version of PrimveFace's Free Admin Template, [SigmaV
 **[LIVE DEMO](https://savannabits.github.io/sigma-vite/)**
 
 ## Preview
-
-![image](https://user-images.githubusercontent.com/5610289/132854336-03d7ed6a-e586-46d4-9483-ae2326c7e62d.png)
+![image](https://user-images.githubusercontent.com/5610289/132866573-696ae423-5c30-4705-9699-ee34ea56cd48.png)
