@@ -1,11 +1,15 @@
-# Vue 3 + Typescript + Vite
+# PrimeVue + Vue 3 + Typescript + Vite
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a vitejs compatible version of PrimveFace's Free Admin Template, [SigmaVue](https://www.primefaces.org/sigma-vue), only with an improved modern look and other improvements:
+* The template now supports material design themes in addition to saga, vela and arya.
+* MD-Light is now the default starting theme.
+* Theme configuration is persisted across reloads using localStorage
+* Typescript is supported out of the box (Thanks to vitejs!)
+* No more Looong build times during development, thanks to vitejs' lightning speed hmr!
 
-## Recommended IDE Setup
+## DEMO
+**[LIVE DEMO](https://savannabits.github.io/sigma-vite/)**
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Preview
 
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+![image](https://user-images.githubusercontent.com/5610289/132854336-03d7ed6a-e586-46d4-9483-ae2326c7e62d.png)
