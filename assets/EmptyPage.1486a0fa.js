@@ -1,0 +1,1 @@
+import{c as s,o as a,a as t}from"./vendor.c27ef1ee.js";const c={},e={class:"grid"},r=[t("div",{class:"col-12"},[t("div",{class:"card"},[t("h5",null,"Empty Page"),t("p",null,"Use this page to start from scratch and place your custom content.")])],-1)];c.render=function(t,c,o,n,l,d){return a(),s("div",e,r)};export{c as default};
